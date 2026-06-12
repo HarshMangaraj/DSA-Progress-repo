@@ -14,6 +14,14 @@ def find_name(names, target):
 
     return -1
 
+names_list = ["Alice", "Bob", "Charlie", "David", "Eve"]
+target_name = "Charlie"
+
+result = find_name(names_list, target_name)
+
+if result != -1:
+    print(f"{target_name} found at index {result}.")
+
 # This function uses binary search, which runs in O(log n) time.
 # Each loop iteration halves the search range, so the number of steps
 # grows logarithmically with the list size.
