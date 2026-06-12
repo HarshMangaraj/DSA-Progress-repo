@@ -13,3 +13,7 @@ if result:
     print(f"{target_paper} found in the list.")
 else:
     print(f"{target_paper} not found in the list.")
+
+
+    # This function uses linear search, which runs in O(n) time.
+    # It checks each element in the list until it finds the target or reaches the end.
