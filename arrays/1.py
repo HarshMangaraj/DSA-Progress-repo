@@ -1,18 +1,25 @@
 marks = [88,72,95,61,79]
+# Creating an array (list) of marks
 
 marks.append(85)
-
+# Appending a new mark to the end of the list
 print(marks)
 
 marks.insert(2, 90)
+# Inserting a mark at index 2 (third position)
 print(marks)
 
 marks.remove(61)
+# Removing the mark with value 61 from the list
 print(marks)
 
 marks.pop(1)
+# Removing the mark at index 1 (second position)
 print(marks)
 
 marks[1] = 75
+# Updating the mark at index 1 to 75
 print(marks)
 
+
+# Arrays in Python are implemented as lists, which are dynamic and can hold elements of different types. They provide various methods for manipulation, such as appending, inserting, removing, and popping elements. Lists are mutable, meaning their contents can be changed after creation.
