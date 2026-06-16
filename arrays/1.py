@@ -23,3 +23,8 @@ print(marks)
 
 
 # Arrays in Python are implemented as lists, which are dynamic and can hold elements of different types. They provide various methods for manipulation, such as appending, inserting, removing, and popping elements. Lists are mutable, meaning their contents can be changed after creation.
+
+
+print(marks[0:3])
+
+# Slicing the list to get the first three marks (index 0 to 2) it is o(k) where k is the number of elements in the slice. In this case, it will be O(3) which simplifies to O(1) since it's a constant number of elements.
