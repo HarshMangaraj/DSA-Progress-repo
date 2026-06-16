@@ -28,3 +28,8 @@ print(marks)
 print(marks[0:3])
 
 # Slicing the list to get the first three marks (index 0 to 2) it is o(k) where k is the number of elements in the slice. In this case, it will be O(3) which simplifies to O(1) since it's a constant number of elements.
+
+# access can be done on any position in O(1) time, making it efficient for random access.
+# inserting at end of the list is O(1) on average, while inserting at the beginning or middle is O(n) because it requires shifting elements.
+# Removing an element by value is O(n) because it requires searching for the element, while removing by index is O(n) in the worst case due to shifting elements after removal.
+#
