@@ -31,5 +31,5 @@ print(marks[0:3])
 
 # access can be done on any position in O(1) time, making it efficient for random access.
 # inserting at end of the list is O(1) on average, while inserting at the beginning or middle is O(n) because it requires shifting elements.
-# Removing an element by value is O(n) because it requires searching for the element, while removing by index is O(n) in the worst case due to shifting elements after removal.
-#
+# deletion if done from end then O(1) but if done from beginning or middle then O(n) because of shifting elements.
+
