@@ -34,3 +34,7 @@ print(marks[0:3])
 # deletion if done from end then O(1) but if done from beginning or middle then O(n) because of shifting elements.
 
 #slice can be done on any position in O(k) time, where k is the number of elements in the slice.
+
+print(marks[:-1])
+# Slicing the list to get all marks except the last one (index 0 to -2) it is O(k) where k is the number of elements in the slice. In this case, it will be O(4) which simplifies to O(1) since it's a constant number of elements.
+#what it prints is [88, 75, 90, 79] it is all the elements except the last one which is 85. if -2 is used then it will print [88, 75, 90] which is all the elements except the last two which are 79 and 85.
