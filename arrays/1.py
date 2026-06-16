@@ -33,3 +33,4 @@ print(marks[0:3])
 # inserting at end of the list is O(1) on average, while inserting at the beginning or middle is O(n) because it requires shifting elements.
 # deletion if done from end then O(1) but if done from beginning or middle then O(n) because of shifting elements.
 
+#slice can br done on any position in O(k) time, where k is the number of elements in the slice.
