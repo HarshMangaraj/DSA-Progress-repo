@@ -21,3 +21,6 @@
 # 6) logarithmic equation : - example y = log(x) + 5x^2 + 10x + 100, y = log(x) + 3x^2 + 1000, y = log(x) + 10x^2 + 10000
 
 #here y is logarithmic and depends on the variable x. The time complexity of this equation is O(log n) which is logarithmic time complexity.
+
+
+# why we talking about maths is because we are going to use these equations to calculate the time complexity of an algorithm. The time complexity of an algorithm is a measure of how the running time or space requirements grow as the input size grows. or in simple words the size of the input data structure.
