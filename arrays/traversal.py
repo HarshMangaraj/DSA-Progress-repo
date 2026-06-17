@@ -8,3 +8,13 @@ for i in range(len(marks)):
 
 #two ways to traverse an array from left to right
 
+for mark in reversed(marks):
+    print(mark)
+
+for mark in marks[::-1]:
+    print(mark)
+
+for i in range(len(marks)-1, -1, -1):
+    print(marks[i])
+
+#three ways to traverse an array from right to left
