@@ -60,3 +60,17 @@ for i in range (0, n):
 # how because the first line n = 5 takes 1 unit of time then the second line m = 10 takes 1 unit of time then the first loop takes n units of time because it runs n times and then the loop inside the first loop takes m units of time because it runs m times but on an assumption we can say the both loops will run n times outside then n times inside so it is n*n which is n^2 so the total time complexity of this code is O(n^2) which is quadratic time complexity.
 
 # why n * n because the first loop runs n times and for each iteration of the first loop the second loop runs n times so it is n*n which is n^2 so the total time complexity of this code is O(n^2) which is quadratic time complexity.
+
+# 4 -> CUBIC TIME COMPLEXITY
+
+n = 5;
+m = 10;
+
+for i in range (0, n):
+    for j in range (0, m):
+        for k in range (0, n):
+            print("the value of i is : ", i, " and the value of j is : ", j, " and the value of k is : ", k)
+
+# here the time complexity of this code is O(n^3) why because the first line n = 5 takes 1 unit of time then the second line m = 10 takes 1 unit of time then the first loop takes n units of time because it runs n times and then the loop inside the first loop takes m units of time because it runs m times but on an assumption we can say the both loops will run n times outside then n times inside so it is n*n which is n^2 and then the third loop takes n units of time because it runs n times so the total time complexity of this code is O(n^3) which is cubic time complexity.
+
+# so on an average lets say if 3 loops ran n times then n*n*n which is n^3 so the total time complexity of this code is O(n^3) which is cubic time complexity.
