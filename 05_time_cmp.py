@@ -1,5 +1,9 @@
 # 1 -> constant time complexity
 
+
+
+
+
 x = 5 ;
 print("the value of x is : ", x)
 
@@ -11,7 +15,16 @@ print("the value of x is : ", x)
 #if else statement is also constant time complexity because it executes a fixed number of operations regardless of the input size.
 
 
+
+
+
+
 # 2 -> linear time complexity
+
+
+
+
+
 
 # example y = 2x + 5, y = 3x + 10, y = 4x + 1000
 
@@ -44,7 +57,15 @@ for k in range (0, n):
 # how because first line n = 5 takes 1 unit of time then the first loop takes n units of time because it runs n times and the print statement inside the first for loop takes n unit of time so the total is 1+n+n which is 2n + 1 then the second loop takes n units of time because it runs n times and the print statement inside the second for loop takes n unit of time so the total is 1+n+n which is 2n + 1 then the third loop takes n units of time because it runs n times and the print statement inside the third for loop takes n unit of time so the total is 1+n+n which is 2n + 1 so the total time complexity of this code is 2n + 1 + 2n + 1 + 2n + 1 which is 6n + 3 so we can say that the time complexity of this code is O(n) which is linear time complexity.
 
 
+
+
+
+
 # 3 -> QUADRATIC TIME COMPLEXITY
+
+
+
+
 
 # here the equation is y = x^2 + 5x + 10, y = 2x^2 + 3x + 1000, y = 4x^2 + 10x + 10000 here the dominating part is x^2 so the time complexity of this equation is O(n^2) which is quadratic time complexity.
 
@@ -61,7 +82,15 @@ for i in range (0, n):
 
 # why n * n because the first loop runs n times and for each iteration of the first loop the second loop runs n times so it is n*n which is n^2 so the total time complexity of this code is O(n^2) which is quadratic time complexity.
 
+
+
+
+
 # 4 -> CUBIC TIME COMPLEXITY
+
+
+
+
 
 n = 5;
 m = 10;
@@ -92,7 +121,13 @@ else:
 
 # here we know that the if else statement is constant time complexity because it executes a fixed number of operations regardless of the input size. so we can ignore the if else statement and take the worst case time complexity which is O(n^3) which is cubic time complexity.
 
+
+
+
 # 5 -> Logorithmic time complexity
+
+
+
 
 # here the equation is y = log(x) + 5x^2 + 10x + 100, y = log(x) + 3x^2 + 1000, y = log(x) + 10x^2 + 10000 here the dominating part is log(x) so the time complexity of this equation is O(log n) which is logarithmic time complexity.
 
@@ -125,3 +160,7 @@ while (n < 10):
 # but how because here the first line n = 1 takes 1 unit of time then the while loop takes log n units of time because it runs log n times and the print statement inside the while loop takes log n unit of time so the total is 1+log n+log n which is 2log n + 1 so we can say that the time complexity of this code is O(log n) which is logarithmic time complexity.
 
 # how logn because the first time n = 1 then second time n = 2 then third time n = 4 then fourth time n = 8 then fifth time n = 16 so it is log(16) = 4 so the while loop runs log n times so the total time complexity of this code is O(log n) which is logarithmic time complexity.
+
+# in simple words multiplying by 2 is the same as dividing by 2 in reverse so it is logarithmic time complexity.
+
+# hence if u see a loop which is getting divided or getting halved then it is logarithmic time complexity and if u see a loop which is getting multiplied by 2 then it is also logarithmic time complexity.
