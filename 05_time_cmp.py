@@ -74,3 +74,20 @@ for i in range (0, n):
 # here the time complexity of this code is O(n^3) why because the first line n = 5 takes 1 unit of time then the second line m = 10 takes 1 unit of time then the first loop takes n units of time because it runs n times and then the loop inside the first loop takes m units of time because it runs m times but on an assumption we can say the both loops will run n times outside then n times inside so it is n*n which is n^2 and then the third loop takes n units of time because it runs n times so the total time complexity of this code is O(n^3) which is cubic time complexity.
 
 # so on an average lets say if 3 loops ran n times then n*n*n which is n^3 so the total time complexity of this code is O(n^3) which is cubic time complexity.
+
+# lets take an tough example suppose:
+
+n = 5
+if (n ==5):
+    for i in range (0, n):
+        for j in range (0, n):
+            print("the value of i is : ", i, " and the value of j is : ", j)
+else:
+    for i in range (0, n):
+        for j in range (0, n):
+            for k in range (0, n):
+                print("the value of i is : ", i, " and the value of j is : ", j, " and the value of k is : ", k)
+
+# here the time complexity we are gonna take is o(n^3) why because we always take the worst case time complexity of an algorithm because it is the most important and most used time complexity in real world applications thats why we often use big O notation to denote time complexity of an algorithm.
+
+# here we know that the if else statement is constant time complexity because it executes a fixed number of operations regardless of the input size. so we can ignore the if else statement and take the worst case time complexity which is O(n^3) which is cubic time complexity.
