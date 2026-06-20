@@ -11,3 +11,8 @@
 # it is not certain that u will take out time complexity of an algorithm and it only has to be a worst case time complexity but it can also have best case and average case time complexity. but we are more concerned about worst case time complexity because it is the most important and most used time complexity in real world applications thats why we often use big O notation to denote time complexity of an algorithm.
 
 # most of the time the time complexity of all the 3 types of analysis is same but it is not always the case. sometimes the time complexity of all the 3 types of analysis is different. so we have to find out the time complexity of all the 3 types of analysis to get a better understanding of the algorithm.
+
+#for example
+# best case -> Ω(n)
+# average case -> θ(n)
+# worst case -> O(n^2)
