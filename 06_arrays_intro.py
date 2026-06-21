@@ -28,4 +28,27 @@ for i in range(0, len(arr)):
     print(arr[i], end=" ")
 print()
 
+# another way to import array is 
+
+from array import array
+arr = array("i", [1, 2, 3, 4, 5])
+print(arr)
+
+
 # Lets learn how to use the array module to perform various operations on the array like append insert delete 
+
+# append - add the element to the end of the array
+arr.append(6)
+print(arr)
+
+# insert - add the element to the specific index
+arr.insert(0, 0)
+print(arr)
+
+# delete - delete the element from the specific index
+arr.pop(0)
+print(arr)
+
+# delete - delete the element from the specific index
+arr.remove(0)
+print(arr)
