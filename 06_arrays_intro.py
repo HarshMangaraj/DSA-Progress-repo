@@ -23,3 +23,9 @@ print(arr[1])
 print(arr[2])
 print(arr[3])
 print(arr[4])
+
+for i in range(0, len(arr)):
+    print(arr[i], end=" ")
+print()
+
+# Lets learn how to use the array module to perform various operations on the array like append insert delete 
