@@ -9,3 +9,17 @@
 # In python arrays are dynamic in default so we dont have to do separate memory management for it like in other languages
 
 # arrays index start from 0 to n-1 so if we want to create an array of 5 elements then the indexes will be 0 1 2 3 4 and also we can access each index using example a[1] or arr[2] etc
+
+# lets learn how to declare an array using array module in python and access the elements of the array
+
+import array as arr
+arr = arr.array("i", [1, 2, 3, 4, 5])
+
+# here i is the type code which means integer and the second one is the array itself
+
+print(arr)
+print(arr[0])
+print(arr[1])
+print(arr[2])
+print(arr[3])
+print(arr[4])
