@@ -71,3 +71,16 @@ print(arr1)
 
 arr1.remove(0)
 print(arr1)
+
+# difference between both methods :
+# array module is slower than numpy module and it has less functionality
+# numpy module is faster than array module and it has more functionality
+
+# why do we need array module or numpy module in python:
+# 1. to perform fast operations on arrays
+# 2. to perform various operations on arrays like append insert delete 
+# 3. to perform various operations on arrays like append insert delete 
+
+# why we attach prefix "# pyrefly: ignore [missing-import]" to the import statements:
+# this is done to ignore the missing import error
+# pyrefly is a static analysis tool that checks for missing imports
