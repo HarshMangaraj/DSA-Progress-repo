@@ -52,3 +52,22 @@ print(arr)
 # delete - delete the element from the specific index
 arr.remove(0)
 print(arr)
+
+# Lets learn how to use the numpy module to perform various operations on the array like append insert delete 
+
+# pyrefly: ignore [missing-import]
+from numpy import array as arr1
+arr1 = arr1([1, 2, 3, 4, 5])
+print(arr1)
+
+arr1.append(6)
+print(arr1)
+
+arr1.insert(0, 0)
+print(arr1)
+
+arr1.pop(0)
+print(arr1)
+
+arr1.remove(0)
+print(arr1)
