@@ -98,3 +98,12 @@ for i in range(1, len(arr)):
 
 print("Maximum element is:", max_element)
 
+
+# approach 2 using numpy module
+
+
+# pyrefly: ignore [missing-import]
+from numpy import array as arr1
+arr1 = arr1([1, 2, 3, 4, 5])
+
+print("Maximum element is:", arr1.max())
