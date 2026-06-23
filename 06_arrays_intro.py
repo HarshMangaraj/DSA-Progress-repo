@@ -107,3 +107,13 @@ from numpy import array as arr1
 arr1 = arr1([1, 2, 3, 4, 5])
 
 print("Maximum element is:", arr1.max())
+
+
+# approach 3 using simple function 
+
+def max_element(arr):
+    max_element = arr[0]
+    for i in range(1, len(arr)):
+        if arr[i] > max_element:
+            max_element = arr[i]
+    return max_element
