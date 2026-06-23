@@ -84,3 +84,17 @@ print(arr1)
 # why we attach prefix "# pyrefly: ignore [missing-import]" to the import statements:
 # this is done to ignore the missing import error
 # pyrefly is a static analysis tool that checks for missing imports
+
+
+# question = "Given an array, find the maximum element in the array"
+
+
+arr = arr.array("i", [1, 2, 3, 4, 5])
+
+max_element = arr[0]
+for i in range(1, len(arr)):
+    if arr[i] > max_element:
+        max_element = arr[i]
+
+print("Maximum element is:", max_element)
+
