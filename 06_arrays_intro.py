@@ -117,3 +117,10 @@ def max_element(arr):
         if arr[i] > max_element:
             max_element = arr[i]
     return max_element
+
+
+# arrays are mostly used in storing multiple values in an sequence
+# and array uses memory contigeously
+
+
+# let's discuss about the 2d arrays
