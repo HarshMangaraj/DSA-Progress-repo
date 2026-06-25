@@ -121,34 +121,3 @@ def max_element(arr):
 
 # arrays are mostly used in storing multiple values in an sequence
 # and array uses memory contigeously
-
-
-# let's discuss about the 2d arrays
-
-# 2d arrays are arrays of arrays
-# they are used to store data in a tabular format
-# they are also called as matrices
-
-# in other languages we can directly declare or use 2d arrays but in python is not like this if we want to use 2d array then there are two ways:
-
-# 1> use python array module 2> Python numpy module u can use any one of this but the better option is numpy module as it has more functionality
-
-# In python arrays are dynamic in default so we dont have to do separate memory management for it like in other languages
-
-# 2d arrays index start from 0 to n-1 so if we want to create an 2d array of 5 elements then the indexes will be 0 1 2 3 4 and also we can access each index using example arr[1] or arr[2] etc
-
-# lets learn how to declare a 2d array using array module in python and access the elements of the 2d array
-
-import array as arr
-arr = arr.array("i", [[1, 2, 3, 4, 5], [6, 7, 8, 9, 10], [11, 12, 13, 14, 15], [16, 17, 18, 19, 20], [21, 22, 23, 24, 25]])
-
-print(arr)
-print(arr[0])
-print(arr[1])
-print(arr[2])
-print(arr[3])
-print(arr[4])
-
-for i in range(0, len(arr)):
-    print(arr[i], end=" ")
-print()
