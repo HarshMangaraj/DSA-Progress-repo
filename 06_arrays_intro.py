@@ -148,3 +148,10 @@ copyArray = array(array.typecode, (i for i in array))
 # this code here creates a new array with the same typecode as the original array and copies all the elements of the original array to the new array using a generator expression.
 
 # first we create a new array with the same typecode as the original array using the array() constructor. Then we use a generator expression (i for i in array) to iterate over all the elements of the original array and copy them to the new array.
+
+
+
+copyArray = array(array.typecode, (i*2 for i in array))
+
+# this code here creates a new array with the same typecode as the original array and copies all the elements of the original array to the new array using a generator expression. but here we are multiplying each element by 2 before copying it to the new array.
+
