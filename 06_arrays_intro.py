@@ -133,3 +133,6 @@ array = arr.array("f", [1.1, 2.2, 3.3, 4.4, 5.5])
 
 # to find typevode of an array we can use the typecode attribute
 print(array.typecode)
+
+# to reverse an array we can use the reverse method
+array.reverse()
