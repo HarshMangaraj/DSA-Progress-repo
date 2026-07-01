@@ -30,7 +30,7 @@ print()
 
 # another way to import array is 
 
-from array import array
+from array import *
 arr = array("i", [1, 2, 3, 4, 5])
 print(arr)
 
@@ -121,3 +121,15 @@ def max_element(arr):
 
 # arrays are mostly used in storing multiple values in an sequence
 # and array uses memory contigeously
+
+
+# to store charecters in an array we can use the type code "u" which means unicode charecters
+
+array = arr.array("u", ["a", "b", "c", "d", "e"])
+
+# for point numbers we can use the type code "f" which means float numbers
+
+array = arr.array("f", [1.1, 2.2, 3.3, 4.4, 5.5])
+
+# to find typevode of an array we can use the typecode attribute
+print(array.typecode)
