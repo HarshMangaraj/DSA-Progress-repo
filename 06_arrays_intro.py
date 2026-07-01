@@ -161,3 +161,11 @@ abc = val[2:5]
 # slice operation is used to get a subarray from the original array. here we are getting the elements from index 2 to 4 (5 is not included) and storing it in a new array called abc.
 
 # one thing to keep in mind the last index is not included in the slice operation. so if we want to get the elements from index 2 to 5 then we have to write it as val[2:6].
+
+abc = val[2:-3]
+
+# here we are getting the elements from index 2 to -3 (which is 6th index from the end) and storing it in a new array called abc. so the elements will be 3, 4, 5, 6, 7.
+
+abc == val[::-1]
+
+# here we are getting the elements from the original array in reverse order and storing it in a new array called abc. so the elements will be 10, 9, 8, 7, 6, 5, 4, 3, 2, 1.
