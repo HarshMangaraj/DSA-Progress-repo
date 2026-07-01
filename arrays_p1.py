@@ -4,6 +4,23 @@ arr = array("i", [1, 2, 3, 4, 5])
 for i in range(0, len(arr)):
     print(arr[i], end=" ")
 
+
+
+
+
+
+# Searching in array we can do it like this by using the index() method of the array module
+# here we are searching for the element 3 in the array and if it is present then we will print the index of that element in the array
+
+array = array("i", [1, 2, 3, 4, 5])
+i = array.index(3)
+print(f"\nThe index of the element 3 in the array is: {i}")
+
+
+
+
+
+
 # lets say if we want to take input for elements in the array from the user then we can do it like this
 n = int(input("Enter the number of elements in the array: "))
 

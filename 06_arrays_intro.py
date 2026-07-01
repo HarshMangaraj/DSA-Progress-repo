@@ -120,6 +120,9 @@ def max_element(arr):
     return max_element
 
 
+
+
+
 # arrays are mostly used in storing multiple values in an sequence
 # and array uses memory contigeously
 
@@ -138,6 +141,12 @@ print(array.typecode)
 # to reverse an array we can use the reverse method
 array.reverse()
 
+
+
+
+
+
+
 # if u want an new array containing copied elements of the original array then we can use the copy method
 new_array = array.copy()
 
@@ -148,6 +157,11 @@ copyArray = array(array.typecode, (i for i in array))
 # this code here creates a new array with the same typecode as the original array and copies all the elements of the original array to the new array using a generator expression.
 
 # first we create a new array with the same typecode as the original array using the array() constructor. Then we use a generator expression (i for i in array) to iterate over all the elements of the original array and copy them to the new array.
+
+
+
+
+
 
 
 
