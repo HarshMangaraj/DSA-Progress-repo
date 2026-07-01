@@ -155,3 +155,9 @@ copyArray = array(array.typecode, (i*2 for i in array))
 
 # this code here creates a new array with the same typecode as the original array and copies all the elements of the original array to the new array using a generator expression. but here we are multiplying each element by 2 before copying it to the new array.
 
+val = arr.array("i", [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+abc = val[2:5]
+
+# slice operation is used to get a subarray from the original array. here we are getting the elements from index 2 to 4 (5 is not included) and storing it in a new array called abc.
+
+# one thing to keep in mind the last index is not included in the slice operation. so if we want to get the elements from index 2 to 5 then we have to write it as val[2:6].
