@@ -63,6 +63,7 @@ print(arr1)
 arr1.append(6)
 print(arr1)
 
+# here first 0 is the index and second 0 is the value to be inserted at that index
 arr1.insert(0, 0)
 print(arr1)
 
@@ -136,3 +137,14 @@ print(array.typecode)
 
 # to reverse an array we can use the reverse method
 array.reverse()
+
+# if u want an new array containing copied elements of the original array then we can use the copy method
+new_array = array.copy()
+
+# or
+
+copyArray = array(array.typecode, (i for i in array))
+
+# this code here creates a new array with the same typecode as the original array and copies all the elements of the original array to the new array using a generator expression.
+
+# first we create a new array with the same typecode as the original array using the array() constructor. Then we use a generator expression (i for i in array) to iterate over all the elements of the original array and copy them to the new array.
